@@ -1,3 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
 .image {
     position: relative;
     width: 400px;
@@ -16,7 +38,6 @@
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     color: white;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +51,7 @@
 }
 
 .image__overlay--primary {
-    background: #009578;
+    background: rgb(1, 70, 1);
 }
 
 .image__overlay > * {
