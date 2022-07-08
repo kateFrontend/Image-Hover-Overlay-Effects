@@ -1,2 +1,2 @@
-# Image-Hover-Overlay-Effects
+# Image Hover Overlay Effects
 Different image hover effects using Html & Css
